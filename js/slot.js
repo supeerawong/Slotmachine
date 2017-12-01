@@ -409,7 +409,7 @@ Game.prototype.restart = function() {
     // get random results
     var random = Math.floor((Math.random() * 4) + 1);
     var random2 = Math.floor((Math.random() * 15) + 1);
-    //เช้า
+    //ช่วงแรก
     if(time<20){
         if(luck<15&&reward3>1){
             if(random===1){
@@ -498,7 +498,7 @@ Game.prototype.restart = function() {
             
         }    
     }else
-    //พัก
+    //ช่วงที่สอง
     if(time>=20&&time<40){
         if(luck<15&&reward3>0&&reward2>0){
             if(random===1){
@@ -700,7 +700,7 @@ Game.prototype.restart = function() {
             }
         }
     }else
-    //เย๋น
+    //ช่วงที่สาม
     if(time>=40&&time<=59){
         if(luck<15&&reward1>0){
             if(random===1){
